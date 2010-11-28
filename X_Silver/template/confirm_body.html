@@ -1,0 +1,35 @@
+<!-- INCLUDE overall_header.html -->
+
+{$SKIN_CAT_HEADER_OPEN}
+{MESSAGE_TITLE}
+{$SKIN_CAT_HEADER_CLOSE}
+
+<form id="confirm" action="{S_CONFIRM_ACTION}" method="post">
+
+	<div class="sub-left"><div class="sub-right">
+		<div class="panel">	
+			<div class="content">
+				<h2>{MESSAGE_TITLE}</h2>
+			</div>
+		</div>
+	</div></div>
+	
+	<div class="v-left"><div class="v-right">
+		<div class="panel">
+			<div class="content">
+				<p>{MESSAGE_TEXT}</p>
+				<fieldset class="submit-buttons">
+					{S_HIDDEN_FIELDS}
+					<input type="submit" name="confirm" value="{L_YES}" class="button2" />&nbsp; 
+					<input type="submit" name="cancel" value="{L_NO}" class="button2" />
+				</fieldset>
+			</div>
+		</div>
+	</div></div>
+	
+</form>
+
+{$SKIN_CAT_FOOTER_OPEN}
+{$SKIN_CAT_FOOTER_CLOSE}
+
+<!-- INCLUDE overall_footer.html -->
