@@ -1,0 +1,773 @@
+/* LEGEND 
+Here we define the overall values that being used around forum
+If we want to change something we find it from here and we replace it in all the css files
+with the values we want.*/
+
+.overall_values { /* this is just a random name. */
+	color : #fff; /* Category Title Color [Normal]*/
+	text-shadow:#333 0px -1px 0px; /* Category Title Shadow [Normal]*/
+	}
+	
+	
+	
+	
+
+/* -------- Forum Overall Header Properties ---------*/
+
+/* Top Header */
+.v-topheader-left {
+	padding-left : 20px;
+	background : url('./images/top_header_left.png') no-repeat bottom left;
+}
+
+.v-topheader-right {
+	padding-right : 20px;
+	background : url('./images/top_header_right.png') no-repeat bottom right;
+}
+
+/* Mid Header */
+.v-midheader-left {
+	padding-left : 20px;
+	background : url('./images/header_bg_left.png') no-repeat top left;
+}
+
+.v-midheader-right {
+	padding-right : 20px;
+	background : url('./images/header_bg_right.png') no-repeat top right;
+}
+
+/* CP */
+.v-cp-left {
+	padding-left : 20px;
+	background : url('./images/cp_header_left.png') no-repeat top left;
+}
+
+.v-cp-right {
+	padding-right : 20px;
+	background : url('./images/cp_header_right.png') no-repeat top right;
+}
+
+/* Breadcrumps */
+.v-breadcrumbs-left {
+	padding-left : 40px;
+	background : url('./images/breadcrumbs_left.png') no-repeat top left;
+}
+
+.v-breadcrumbs-right {
+	padding-right : 40px;
+	background : url('./images/breadcrumbs_right.png') no-repeat top right;
+}
+
+/* Bottom */
+.v-bottom-mid {
+	background : url('./images/cp_header_mid.png') repeat-x bottom left;
+	width : 100%;
+	height : 31px;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1.3em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.v-bottom-left {
+	padding-left : 32px;
+	background : url('./images/v-bottom-left.png') no-repeat top left;
+}
+
+.v-bottom-right {
+	padding-right : 36px;
+	background : url('./images/v-bottom-right.png') no-repeat bottom right;
+}
+
+.v-bottom-title {
+	color : #fff;
+	margin-top : 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	text-shadow:#000 0px -1px 0px;
+}
+
+
+
+/* -------- Categories Header Properties ---------*/
+
+.c-h-c {
+	background : url('./images/c-h-c.png') repeat-x top left;
+	width : 100%;
+	height : 50px;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1.3em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.c-h-l {
+	background : url('./images/c-h-l.png') no-repeat top left;
+	padding-left : 74px;
+}
+
+.c-h-r {
+	background : url('./images/c-h-r.png') no-repeat top right;
+	padding-right : 74px;
+}
+
+.c-h-title {
+	color : #fff; /* Category Title Color [Normal]*/
+	margin-top : 18px;
+	margin-bottom: 12px;
+	text-align: center;
+	text-shadow:#333 0px -1px 0px; /* Category Title Shadow [Normal]*/
+}
+
+.c-h-title-tabs {
+	color : #fff;
+	text-align: center;
+	/*text-shadow:#000 0px -1px 0px;*/
+	font-size: 12px;
+}
+
+.c-h-c-tabs {
+	background : url('./images/c-h-c.png') repeat-x bottom left;
+	width : 100%;
+	height : 46px;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1.1em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.c-h-title-nolink {
+	color : #ffffff;
+	font-family : Verdana, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size : 1em;
+	font-weight : bold;
+	text-decoration : none;
+	text-shadow:#000 0px -1px 0px;
+	padding: 16px;
+	margin-top : 16px;
+	margin-bottom: 12px;
+}
+
+a.c-h-link, a.c-h-link:visited {
+	color : #fff;
+	font-family : Verdana, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size : 1em;
+	font-weight : bold;
+	text-decoration : none;
+	text-shadow:#333 0px -1px 0px;
+	padding: 16px;
+}
+
+a.c-h-link:hover, a.c-h-link:active {
+	color : #ddd;
+	font-family : Verdana, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size : 1em;
+	font-weight : bold;
+	text-decoration : none;
+	text-shadow:#000 0px 1px 5px;
+}
+
+
+
+/* -------- Categories Header with Border Properties ---------*/
+
+.c-h-c-border {
+	background : url('./images/c-h-c.png') repeat-x top left;
+	width : 100%;
+	height : 51px;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1.3em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.c-h-l-border {
+	background : url('./images/c-h-l.png') no-repeat top left;
+	padding-left : 74px;
+}
+
+.c-h-r-border {
+	background : url('./images/c-h-r.png') no-repeat top right;
+	padding-right : 74px;
+}
+
+
+
+/* -------- Categories Footer Properties ---------*/
+
+.c-f-c {
+	background : url('./images/c-f-c.png') repeat-x top left;
+	height : 40px;
+	font-size : 1.0em;
+	margin-bottom : 5px;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.c-f-l {
+	background : url('./images/c-f-l.png') no-repeat bottom left;
+	padding-left : 74px;
+}
+.c-f-r {
+	background : url('./images/c-f-r.png') no-repeat bottom right;
+	padding-right : 74px;
+}
+
+
+
+/* -------- Left and Right Images Properties ---------*/
+
+.sub-left {
+	background : url('./images/catsub_left.png') repeat-y top left;
+	padding-left : 30px;
+}
+
+.sub-right {
+	background : url('./images/catsub_right.png') repeat-y top right;
+	padding-right : 30px;
+}
+
+.v-left {
+	background : url('./images/catrow_left.png') repeat-y top left;
+	padding-left : 30px;
+}
+
+.v-right {
+	background : url('./images/catrow_right.png') repeat-y top right;
+	padding-right : 30px;
+}
+
+
+
+/* -------- Mini Topic Images Properties ---------*/
+
+.mini-c-h-c {
+	background : url('./images/mini-c-h-c.png') repeat-x bottom left;
+	width : 100%;
+	height : 20px;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1.3em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.mini-c-h-l {
+	background : url('./images/mini-c-h-l.png') no-repeat bottom left;
+	padding-left : 30px;
+}
+
+.mini-c-h-r {
+	background : url('./images/mini-c-h-r.png') no-repeat bottom right;
+	padding-right : 30px;
+}
+
+.mini-c-h-title {
+	color : #000000;
+	margin-top : 16px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.mini-v-left {
+	background : url('./images/catrow_left.png') repeat-y top left;
+	padding-left : 30px;
+}
+
+.mini-v-right {
+	background : url('./images/catrow_right.png') repeat-y top right;
+	padding-right : 30px;
+}
+
+.mini-c-f-c {
+	background : url('./images/mini-c-f-c.png') repeat-x top left;
+	height : 20px;
+	font-size : 1.0em;
+	margin : 0;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.mini-c-f-l {
+	background : url('./images/mini-c-f-l.png') no-repeat top left;
+	padding-left : 30px;
+}
+.mini-c-f-r {
+	background : url('./images/mini-c-f-r.png') no-repeat top right;
+	padding-right : 30px;
+}
+
+
+
+/* -------- Forum Overall Footer Properties ---------*/
+
+.footer_left {
+	background : url('./images/footer_left.png') no-repeat top left;
+	padding-left : 5px;
+}
+
+.footer_right {
+	background : url('./images/footer_right.png') no-repeat top right;
+	padding-right : 5px;
+}
+
+.footer_mid {
+	background : url('./images/footer_mid.png') repeat-x top left;
+	width : 100%;
+	min-height : 165px;
+	height: auto;
+	margin : 0;
+	font-weight : bold;
+	font-size : 1em;
+	text-align : left;
+	white-space : nowrap;
+	overflow : hidden;
+}
+
+.skin-copyright {
+	padding: 20px 0 0 0;
+	text-align: center;
+	color: #fff;
+}
+
+.copyright {
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.sponsors_title {	
+	font-size: 1.3em;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.skinlab_sponsors {
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.sponsor {	
+	display: inline;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+
+
+/* -------- Forum Jumpbox Box Properties ---------*/
+
+.jumpbox_table {
+	background-color: #d0d9e6;
+	margin-top: 0px;
+	padding-top: 1px;
+	padding-bottom: 6px;
+}
+
+.jumpbox_table_solo {
+	background-color: #d0d9e6;
+	border: 1px solid #000;
+	margin-top: 0px;
+	padding: 1px 10px;
+	margin: 5px 8px 5px 8px;
+}
+
+
+
+/* -------- Misc Properties ---------*/
+
+.table_legend {
+	background-color: #d0d9e6;
+}
+
+.profile_buttons_right {
+	float: right;
+}
+
+.box_border {
+	border: 1px solid #000;
+	margin: 10px 20px 10px 15px;
+}
+
+.stat-info {
+	height: 100%;
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #d0d9e6;
+	min-height: 50px;
+}
+
+.topic_username  {
+	font-size: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+
+
+/* -------- Drop Down Menu for Header ---------*/
+
+#menuPositioner {
+	width:100%; 
+	margin-bottom:0px; 
+}
+
+#menuHolder {
+}
+
+#menu, 
+#menu ul {
+	padding:0;
+	margin:0; 
+	list-style:none; 
+	font: 12px arial, verdana, sans-serif; 
+}
+
+#menu {
+	height:53px; 
+	padding:0px; 
+	background:#4b4d3f; 
+	background:url("{T_THEME_PATH}/images/top_header_mid.png"); 
+}
+
+#menu ul {
+	position:absolute; 
+	left:-9999px; 
+	top:-9999px;
+}
+
+#menu table {
+	margin:-1px; 
+	padding:0; 
+	width:0; 
+	height:0;
+}
+
+#menu li {
+	float:left;
+}
+
+#menu li a {
+	display:block; 
+	float:left; 
+	color:#fff; 
+	text-shadow: #000 0px -1px 0px; 
+	height:53px; 
+	padding: 0px 15px 0px 0; 
+	line-height:53px; 
+	text-decoration:none; 
+	background:url("{T_THEME_PATH}/images/top_header_button_right.png") no-repeat right top;/*right for normal buttons*/
+}
+
+#menu li a:hover {
+	background:url("{T_THEME_PATH}/images/top_header_button_hover_right.png") no-repeat right top;/*hover right for normal buttons*/ 
+}
+
+#menu li a.sub {
+	/*background: url("{T_THEME_PATH}/images/rr.png") no-repeat right top;*/ /*right for Drop Down Buttons*/
+}
+
+#menu li a b {
+	display:block; 
+	float:left; 
+	height:53px; 
+	padding: 0 0 0 15px; 
+	cursor:pointer;
+	background:url("{T_THEME_PATH}/images/top_header_button_left.png") no-repeat left top; /*left for ALL buttons*/
+}
+
+#menu li a:hover b {
+	background:url("{T_THEME_PATH}/images/top_header_button_hover_left.png") no-repeat left top; /*hover left for NOT drop down buttons*/
+}
+
+#menu li:hover {
+	position:relative; 
+	z-index:100;
+}
+
+#menu a:hover {
+	position:relative; 
+	z-index:100; 
+	color:#fc0;
+}
+
+#menu a.sub:hover {
+	background:url("{T_THEME_PATH}/images/top_header_button_hover_left.png") no-repeat right top;
+}
+
+#menu li:hover > a {
+	color:#fff;
+}
+
+#menu li:hover > a.sub {
+	background:url("{T_THEME_PATH}/images/top_header_button_hover_right.png") no-repeat right top; /*hover right for drop down*/
+}
+
+#menu li:hover > a.sub b {
+	background:url("{T_THEME_PATH}/images/top_header_button_hover_left.png") no-repeat left top; /*hover left for drop down*/
+}
+
+#menu :hover ul {
+	left:0; 
+top:30px; 
+z-index:300; 
+width:170px; 
+padding-top:0px; 
+background:url("{T_THEME_PATH}/images/trans.gif");
+border-top: 1px solid #000;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+}
+
+#menu :hover ul li a { /*skinlab*/
+height:25px; 
+width:160px; 
+padding:0px 0 2px 10px; 
+line-height:25px; 
+background:#546775; 
+color:#fff;
+border-bottom:1px solid #000; 
+font-size:11px;
+font-weight: bold;
+background:url("{T_THEME_PATH}/images/op_but1.png");
+}
+
+#menu :hover ul li a.fly {
+background:#546775 url("{T_THEME_PATH}/images/fly.gif") no-repeat right center;
+}
+
+#menu :hover ul li a:hover {
+color:#fff;
+}
+
+#menu :hover ul li a:hover.fly {
+background:#546775 url("{T_THEME_PATH}/images/fly-over.gif") no-repeat right center;
+}
+
+#menu :hover ul li:hover > a { /*skinlab*/
+color:#fff;
+background:url("{T_THEME_PATH}/images/op_but2.png");
+}
+
+#menu :hover ul li:hover > a.fly {
+background:#546775 url("{T_THEME_PATH}/images/fly-over.gif") no-repeat right center;
+}
+
+#menu :hover ul ul {
+position:absolute; 
+left:-9999px; 
+top:-9999px;
+}
+
+#menu :hover ul :hover ul {
+left:117px; 
+top:0; 
+padding:0;
+}
+
+#menu :hover ul :hover ul li a {
+background:#a3b6c4; 
+color:#000; 
+border-bottom:10px solid #546775; 
+font-size:11px;
+}
+
+#menu :hover ul :hover ul li a:hover {
+color:#fff;
+}
+
+
+
+/* -------- Drop Down Menu for CP ---------*/
+
+#CP_Header_Positioner {
+width:100%; 
+margin-bottom:0px; 
+/*min-width: 600px;*/
+/*border-top: 1px solid #000;*/
+}
+
+#CP_Header_Holder {
+}
+
+#CP_Header_, 
+#CP_Header_ ul {
+padding:0;
+margin:0; 
+list-style:none; 
+font: 12px arial, verdana, sans-serif; 
+}
+
+#CP_Header_ {
+height:53px; 
+padding:0px; 
+background:#4b4d3f; 
+background:url("{T_THEME_PATH}/images/cp_header_mid.png"); 
+}
+
+#CP_Header_ ul {
+position:absolute; 
+left:-9999px; 
+top:-9999px;
+}
+
+#CP_Header_ table {
+margin:-1px; 
+padding:0; 
+width:0; 
+height:0;
+}
+
+#CP_Header_ li {
+float:left;
+}
+
+#CP_Header_ li a {
+display:block; 
+float:left; 
+color:#fff; 
+text-shadow: #000 0px -1px 0px;
+height:53px; 
+padding: 0px 15px 0px 0; 
+line-height:53px; 
+text-decoration:none; 
+background:url("{T_THEME_PATH}/images/cp_header_button_right.png") no-repeat right top;/*right for normal buttons*/
+}
+
+#CP_Header_ li a:hover {
+background:url("{T_THEME_PATH}/images/cp_header_button_hover_right.png") no-repeat right top;/*hover right for normal buttons*/ 
+
+}
+
+#CP_Header_ li a.sub {
+background: url("{T_THEME_PATH}/images/cp_header_dropdown_button_right.png") no-repeat right top; /*right for Drop Down Buttons*/
+padding-right: 36px;
+}
+
+#CP_Header_ li a b {
+display:block; 
+float:left; 
+height:58px; 
+padding: 0px 0 0 15px; 
+cursor:pointer;
+background:url("{T_THEME_PATH}/images/cp_header_button_left.png") no-repeat left top; /*left for ALL buttons*/
+}
+
+#CP_Header_ li a:hover b {
+background:url("{T_THEME_PATH}/images/cp_header_button_hover_left.png") no-repeat left top; /*hover left for NOT drop down buttons*/
+}
+
+#CP_Header_ li:hover {
+position:relative; 
+z-index:100;
+}
+
+#CP_Header_ a:hover {
+position:relative; 
+z-index:100; 
+color:#fc0;
+}
+
+#CP_Header_ a.sub:hover {
+background:url("{T_THEME_PATH}/images/cp_header_button_hover_left.png") no-repeat right top;
+}
+
+#CP_Header_ li:hover > a {
+color:#fff;
+text-shadow: #000 0px -1px 0px;
+}
+
+#CP_Header_ li:hover > a.sub {
+background:url("{T_THEME_PATH}/images/cp_header_dropdown_button_hover_right.png") no-repeat right top; /*hover right for drop down*/
+padding-right: 36px;
+}
+
+#CP_Header_ li:hover > a.sub b {
+background:url("{T_THEME_PATH}/images/cp_header_button_hover_left.png") no-repeat left top; /*hover left for drop down*/
+}
+
+#CP_Header_ :hover ul {
+left:0; 
+top:45px; 
+left: 3px;
+z-index:300; 
+width:170px; 
+padding-top:0px; 
+background:url("{T_THEME_PATH}/images/trans.gif");
+border-top: 1px solid #303a4a;
+border-left: 1px solid #303a4a;
+border-right: 1px solid #303a4a;
+}
+
+#CP_Header_ :hover ul li a { /*skinlab*/
+height:26px; 
+width:160px; 
+padding:0px 0 2px 10px; 
+line-height:26px; 
+background:#546775; 
+color:#fff;
+border-bottom:1px solid #000; 
+font-size:11px;
+font-weight: bold;
+background:url("{T_THEME_PATH}/images/op_but1.png");
+}
+
+#CP_Header_ :hover ul li a.fly {
+background:#546775 url("{T_THEME_PATH}/images/fly.gif") no-repeat right center;
+}
+
+#CP_Header_ :hover ul li a:hover {
+color:#fff;
+}
+
+#CP_Header_ :hover ul li a:hover.fly {
+background:#546775 url("{T_THEME_PATH}/images/fly-over.gif") no-repeat right center;
+}
+
+#CP_Header_ :hover ul li:hover > a { /*skinlab*/
+color:#fff;
+background:url("{T_THEME_PATH}/images/op_but2.png");
+}
+
+#CP_Header_ :hover ul li:hover > a.fly {
+	background:#546775 url("{T_THEME_PATH}/images/fly-over.gif") no-repeat right center;
+}
+
+#CP_Header_ :hover ul ul {
+	position:absolute; 
+	left:-9999px; 
+	top:-9999px;
+}
+
+#CP_Header_ :hover ul :hover ul {
+	left:117px; 
+	top:0; 
+	padding:0;
+}
+
+#CP_Header_ :hover ul :hover ul li a {
+	background:#a3b6c4; 
+	color:#000; 
+	border-bottom:10px solid #546775; 
+	font-size:11px;
+}
+
+#CP_Header_ :hover ul :hover ul li a:hover {
+	color:#fff;
+}
