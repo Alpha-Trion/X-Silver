@@ -1,0 +1,26 @@
+<!-- INCLUDE overall_header.html -->
+{$SKIN_CAT_HEADER_OPEN}
+	{MESSAGE_TITLE}
+{$SKIN_CAT_HEADER_CLOSE}
+
+<div class="sub-left"><div class="sub-right">
+	<div class="panel">
+		<div class="content">
+			<h2>{MESSAGE_TITLE}</h2>
+		</div>
+	</div>
+</div></div>
+	
+<div class="v-left"><div class="v-right">
+	<div class="panel" id="message">
+		<div class="content">
+			<p>{MESSAGE_TEXT}</p>
+			<!-- IF SCRIPT_NAME == "search" and not S_BOARD_DISABLED and not S_NO_SEARCH and L_RETURN_TO_SEARCH_ADV -->
+				<p><a href="{U_SEARCH}" class="{S_CONTENT_FLOW_BEGIN}">{L_RETURN_TO_SEARCH_ADV}</a></p>
+			<!-- ENDIF -->
+		</div>
+	</div>
+</div></div>
+{$SKIN_CAT_FOOTER_OPEN}
+{$SKIN_CAT_FOOTER_CLOSE}
+<!-- INCLUDE overall_footer.html -->
